@@ -19,10 +19,11 @@ enum StoryBoards: String {
 
 enum VCIdentifiers: String {
     case main
+    case register
+    case registercell
+    case login
 
-    
     var txt: String {
         return self.rawValue
     }
-    
 }

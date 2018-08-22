@@ -15,8 +15,16 @@ struct MainStoryBoard {
         return StoryBoards.main.board
     }
     
-    static var mainVC: mainViewController {
-        return main.vcOfType(.main) as! mainViewController
+    static var registerVC: RegisterViewController {
+        return main.vcOfType(.register) as! RegisterViewController
+    }
+    
+    static var registerCellVC: RegisterCellsViewController {
+        return main.vcOfType(.registercell) as! RegisterCellsViewController
+    }
+    
+    static var logInVC: LogInViewController {
+        return main.vcOfType(.login) as! LogInViewController
     }
     
     /*
